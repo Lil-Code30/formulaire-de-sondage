@@ -21,4 +21,5 @@ Un projet de formulaire de sondage développé dans le cadre du **certificat en 
 1. **Clone le dépôt**  
    ```bash
    git clone https://github.com/Lil-Code30/formulaire-de-sondage.git
+2. Ouvre le fichier ``index.html`` dans ton navigateur.
 
