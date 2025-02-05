@@ -1,0 +1,9 @@
+- À quel niveau de programmation es-tu ? (Débutant, intermédiaire, avancé, Pro)
+- Quelles technologies préfères-tu apprendre ? (HTML/CSS, JavaScript, PHP, Python, Autres)
+- Quelle est ta plateforme d’apprentissage préférée ? (YouTube, freeCodeCamp, Udemy, Coursera, edX, Codecademy, Autres)
+- Quels types de projets préfères-tu réaliser ? (Sites web, Applications mobiles, Jeux vidéo
+Intelligence artificielle et Machine Learning,
+Automatisation de tâches,
+Cybersécurité,
+Autre)
+- Quelles difficultés rencontres-tu le plus souvent en programmation ?

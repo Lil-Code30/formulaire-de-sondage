@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Sondage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="title">LiCode : Formulaire de Sondage</h1>
+            <p id="description">Sondage sur l’apprentissage du code 💻</p>
+        </header>
+        <form id="survey-form">
+            <label id="name-label" for="name">Nom: </label> <br>
+            <input type="text" id="name" name="name" required placeholder="Entrez votre nom">
+            <br>
+            <label id="email-label" for="email">Email: </label> <br>
+            <input type="email" id="email" name="email" required placeholder="Entrez votre adresse email ">
+            <br>
+            <label id="number-label" for="age">Age: </label> <br>
+            <input type="number" id="number" name="age"  placeholder="Age" min="10" max="100">
+            <br>
+            <label for="dropdown">À quel niveau de programmation es-tu ?</label><br>
+            <select id="dropdown">
+                <option selected >Choisir mon Niveau</option>
+                <option>Débutant</option>
+                <option>Intermédiaire</option>
+                <option>Avancé</option>
+                <option>Pro</option>
+            </select>
+            <br>
+            <label>Quelles technologies préfères-tu apprendre ?</label>
+            <br>
+            <label for="html-css">
+                <input type="radio" id="html-css" name="tech" value="html-css"> HTML/CSS
+            </label><br>
+            <label for="javascript">
+                <input type="radio" id="javascript" name="tech" value="javascript"> JavaScript
+            </label><br>
+            <label for="php">
+                <input type="radio" id="php" name="tech" value="php"> PHP
+            </label><br>
+            <label for="Python">
+                <input type="radio" id="Python" name="tech" value="python"> Python
+            </label><br>
+            <label for="Autres">
+                <input type="radio" id="Autres" name="tech" value="autre"> Autres
+            </label><br>
+            <label for="plateforme">Quelle est ta plateforme d’apprentissage préférée ?</label><br>
+            <select id="plateforme">
+                <option selected >Choisir </option>
+                <option>Youtube</option>
+                <option>freeCodeCamp</option>
+                <option>Udemy</option>
+                <option>Coursera</option>
+                <option>Codecademy</option>
+                <option>Autres</option>
+            </select>
+            <br>
+            <label id="projets">Quels types de projets préfères-tu réaliser ?</label>
+            <br>
+            <!-- (Sites web, Applications mobiles, Jeux vidéo
+            Intelligence artificielle et Machine Learning,
+            Automatisation de tâches,
+            Cybersécurité,
+            Autre) -->
+            <label for="sites-web">
+                <input type="checkbox" id="sites-web" value="sites-web"> Sites web
+            </label><br>
+            <label for="application-mobile">
+                <input type="checkbox" id="application-mobile" value="application-mobile"> Applications mobiles
+            </label><br>
+            <label for="jeux-video">
+                <input type="checkbox" id="jeux-video" value="jeux-video"> Jeux vidéo
+            </label><br>
+            <label for="IA-ML">
+                <input type="checkbox" id="IA-ML" value="IA-ML"> Intelligence artificielle et Machine Learning
+            </label><br>
+            <label for="automatisation">
+                <input type="checkbox" id="automatisation" value="automatisation"> Automatisation de tâches
+            </label><br>
+            <label for="cybersécurité">
+                <input type="checkbox" id="cybersécurité" value="cybersécurité"> Cybersécurité
+            </label><br>
+            <label for="autres">
+                <input type="checkbox" id="autres" value="autres"> Autres
+            </label><br>
+            <label for="difficultés">Quelles difficultés rencontres-tu le plus souvent en programmation ?</label><br>
+            <textarea>Ecrivez ici !!</textarea> 
+            <br>
+            <input type="submit" id="submit" value="Envoyer">
+        </form>
+    </main>
+</body>
+</html>
