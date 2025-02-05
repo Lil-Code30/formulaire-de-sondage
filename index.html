@@ -14,16 +14,16 @@
         </header>
         <form id="survey-form">
             <label id="name-label" for="name">Nom: </label> <br>
-            <input type="text" id="name" name="name" required placeholder="Entrez votre nom">
+            <input type="text" class="top-input" id="name" name="name" required placeholder="Entrez votre nom">
             <br>
             <label id="email-label" for="email">Email: </label> <br>
-            <input type="email" id="email" name="email" required placeholder="Entrez votre adresse email ">
+            <input type="email" class="top-input" id="email" name="email" required placeholder="Entrez votre adresse email ">
             <br>
             <label id="number-label" for="age">Age: </label> <br>
-            <input type="number" id="number" name="age"  placeholder="Age" min="10" max="100">
+            <input type="number" class="top-input"  id="number" name="age"  placeholder="Age" min="10" max="100">
             <br>
             <label for="dropdown">À quel niveau de programmation es-tu ?</label><br>
-            <select id="dropdown">
+            <select class="top-input" id="dropdown">
                 <option selected >Choisir mon Niveau</option>
                 <option>Débutant</option>
                 <option>Intermédiaire</option>
@@ -49,7 +49,7 @@
                 <input type="radio" id="Autres" name="tech" value="autre"> Autres
             </label><br>
             <label for="plateforme">Quelle est ta plateforme d’apprentissage préférée ?</label><br>
-            <select id="plateforme">
+            <select class="top-input" id="plateforme">
                 <option selected >Choisir </option>
                 <option>Youtube</option>
                 <option>freeCodeCamp</option>
@@ -88,7 +88,7 @@
                 <input type="checkbox" id="autres" value="autres"> Autres
             </label><br>
             <label for="difficultés">Quelles difficultés rencontres-tu le plus souvent en programmation ?</label><br>
-            <textarea>Ecrivez ici !!</textarea> 
+            <textarea rows="10">Ecrivez ici !!</textarea> 
             <br>
             <input type="submit" id="submit" value="Envoyer">
         </form>
